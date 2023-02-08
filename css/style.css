@@ -342,7 +342,53 @@ a:focus {
 }
 
 
+.bg-color {
+  background-color: #fafafa;
+}
 
+/* Services */
+
+.img-card{
+  width: 32px;
+  height: 28px;
+}
+
+.card-title-color{
+  color: rgba(29, 30, 49, 0.9);
+}
+
+.card-btn {
+  padding: 10px 40px; /* #9852f2 */
+  background-color: #9852f2;
+  color: #fefdfc;
+  border-radius: 0;
+  border: 1px solid #9852f2;
+}
+
+.card-btn:hover {
+  background-color: transparent;
+  color: #9852f2;
+  border-radius: 0;
+  border: 1px solid #9852f2;
+}
+
+.service-item {
+  height: 440px;
+  background:  rgba(29, 30, 49, 0.05);
+  transition: .5s;
+}
+
+.service-item:hover {
+  background-color: rgba(29, 30, 49, 0.1);
+}
+
+.service-item h4 {
+  transition: .5s;
+}
+
+.service-item:hover h4 {
+  color: #F4F5F8;
+}
 
 
 
@@ -774,7 +820,7 @@ a:focus {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: rgba(133, 71, 202, 0.3);
+	background-color: rgba(133, 71, 202, 0.1);
 }
 
 .contact_section {

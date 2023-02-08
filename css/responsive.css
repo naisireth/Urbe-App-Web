@@ -9,6 +9,10 @@
     .section-2 {
         font-size: 3rem;
     }
+
+    .service-item {
+        height: auto;
+      }
 }
 
 @media (max-width: 992px) {
@@ -58,7 +62,7 @@
     .client_container {
         width: 95%;
       }
-    
+
       .client_section .carousel-control-prev,
       .client_section .carousel-control-next {
         display: none;
