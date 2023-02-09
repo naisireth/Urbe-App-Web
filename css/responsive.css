@@ -1,4 +1,4 @@
-@media (max-width: 1120px) {
+@media (max-width: 1200px) { /* 1120px */
 
     .client_container .client_text {
         height: 265px;    
@@ -15,6 +15,10 @@
 
     .service-item {
         height: auto;
+    }
+
+    .service-item-img{
+        display: none;
     }
 
     .img-denuncia{
@@ -192,7 +196,7 @@
 
 @media (max-width: 360px) {
     .client_container .client_text {
-        height: 460px;    
+        height: 440px;    
     }
 }
 
