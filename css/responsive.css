@@ -1,5 +1,8 @@
 @media (max-width: 1120px) {
 
+    .client_container .client_text {
+        height: 265px;    
+    }
 
     .img-modifier {
         width: 100%;
@@ -12,10 +15,20 @@
 
     .service-item {
         height: auto;
-      }
+    }
+
+    .img-denuncia{
+        width: 28rem;
+        height: auto;
+    }
+
 }
 
 @media (max-width: 992px) {
+
+    .client_container .client_text {
+        height: 335px;    
+    }
 
     .section-2 {
         font-size: 2.2rem;
@@ -35,6 +48,11 @@
 }
 
 @media (max-width: 768px) {
+
+    .client_container .client_text {
+        height: 265px;    
+    }
+
     .hero_area {
         background: linear-gradient(to bottom, #f2f7fd 50%, #1d1e31 45%);
     }
@@ -110,6 +128,11 @@
 }
 
 @media (max-width: 576px) {
+
+    .client_container .client_text {
+        height: 290px;    
+    }
+
     .contact_section input {
         width: 100%;
     }
@@ -118,16 +141,23 @@
         width: auto;
     }
 
-    .filter{
-        height: 22rem;
-        width: 22rem;
+    .img-denuncia{
+        width: 18rem;
+        height: auto;
     }
 }
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    .client_container .client_text {
+        height: 380px;    
+    }
+}
 
 @media (max-width: 400px) {
 
+    .client_container .client_text {
+        height: 400px;    
+    }
 
     .slider_section .detail-box h2 {
         font-size: 1.5rem;
@@ -160,7 +190,11 @@
     }
 }
 
-@media (max-width: 360px) {}
+@media (max-width: 360px) {
+    .client_container .client_text {
+        height: 460px;    
+    }
+}
 
 @media (min-width: 1200px) {
     .container {

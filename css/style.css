@@ -306,7 +306,7 @@ a:focus {
   padding: 30px;
   border: 1px solid #bcbcbc;
   border-radius: 5px;
-  height: auto;
+  height: 210px;
 }
 
 .client_container .detail-box {
@@ -370,16 +370,19 @@ a:focus {
   color: #9852f2;
   border-radius: 0;
   border: 1px solid #9852f2;
+  cursor: pointer;
 }
 
 .service-item {
   height: 440px;
-  background:  rgba(29, 30, 49, 0.05);
+  background:  rgba(29, 30, 49, 0.015);
   transition: .5s;
+  border: 1px solid #bcbcbc;
 }
 
 .service-item:hover {
-  background-color: rgba(29, 30, 49, 0.1);
+  background-color:rgba(133, 71, 202, 0.1);
+  cursor: pointer;
 }
 
 .service-item h4 {
@@ -805,15 +808,21 @@ a:focus {
 /* contact section */
 
 .filter{
-  height: 30rem;
-  width: 30rem;
-  background: url(../images/denuncia1.jpg) no-repeat;
-  background-size: contain;
-	position:relative;
+  height: auto;
+  width: 100%;
   margin: 0 auto;
+  text-align: center;
 }
 
-.filter::after{
+.img-denuncia{
+  width: 24rem;
+  height: auto;
+}
+
+.bg-color-purple{
+  background-color: rgba(133, 71, 202, 0.1);
+}
+/* .filter::after{
   content:' ';
 	position: absolute;
   top: 0;
@@ -821,7 +830,7 @@ a:focus {
 	left: 0;
 	right: 0;
 	background-color: rgba(133, 71, 202, 0.1);
-}
+} */
 
 .contact_section {
   background-color: #f2f7fd;
