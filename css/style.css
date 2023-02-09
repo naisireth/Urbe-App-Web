@@ -1,5 +1,6 @@
 * {
   scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 body {
@@ -395,14 +396,14 @@ a:focus {
   position: relative;
 }
 
-.service-item-img::after{
+/* .service-item-img::after{
 	position: absolute;
   top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	background-color: rgba(133, 71, 202, 0.2);
-}
+} */
 
 .service-item:hover {
   background-color:rgba(133, 71, 202, 0.1);
