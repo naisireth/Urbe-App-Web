@@ -1,12 +1,15 @@
 * {
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 body {
   font-family: 'Raleway', sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
+}
+
+.container {
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
