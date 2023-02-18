@@ -625,12 +625,33 @@
   /* Carrousel */
 
   .img-slider {
-    width: 450px;
+    width: 52rem;
+  }
+
+  .img-slider-2 {
+    width: 52rem;
+  }
+
+  .img-slider-3 {
+    width: 52rem;
   }
   
-  .img-box {
-    margin-top: 20px;
-    width: 100px;
+  .img-box-1 {
+    position: relative;
+    right: 200px;
+    top: 40px;
+  }
+
+  .img-box-2 {
+    position: relative;
+    right: 200px;
+    top: 40px;
+  }
+
+  .img-box-3 {
+    position: relative;
+    right: 200px;
+    top: 40px;
   }
 
   .slider_section {
