@@ -68,6 +68,7 @@
 
     .img-slider, .img-slider-2, .img-slider-3{
         width: 650px;
+        height: 400px;
     }
 
     .img-box {
@@ -175,13 +176,18 @@
 
 @media (max-width: 576px) {
 
-    .img-slider, .img-slider-2, .img-slider-3{
-        width: 140%;
+    .img-slider{
+        width: 400px;
+        height: 330px;
+    }
+
+    .img-slider-2, .img-slider-3{
+        width: 470px;
     }
 
     .img-box {
         position: relative;
-        right: 60px;
+        right: 90px;
         top: 0px;
         margin: 0 auto;
         width: 100%;
