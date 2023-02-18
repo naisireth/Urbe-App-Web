@@ -554,12 +554,38 @@
     border: 1px solid #9852f2;
     cursor: pointer;
   }
+
+  .btn-articulos a {
+    padding: 15px 40px; /* #9852f2 */
+    background-color:#9852f2;
+    color: #fefdfc;
+    border-radius: 0;
+    border: 1px solid #9852f2;
+  }
+
+  .btn-articulos:hover a:hover {
+    background-color: transparent;
+    color: #9852f2;
+  }
+
   
   .service-item {
     height: 380px;
     background:  rgba(29, 30, 49, 0.015);
     transition: .5s;
     border: 1px solid #bcbcbc;
+  }
+
+  .service-item-recomendacion {
+    height: 315px;
+    background:  rgba(29, 30, 49, 0.015);
+    transition: .5s;
+    border: 1px solid #bcbcbc;
+  }
+
+  .img-recomendacion {
+    width: 100%;
+    height: 190px;
   }
   
   .service-item-img {
@@ -569,6 +595,9 @@
     position: relative;
   }
   
+  .bg-white {
+    background: #fff;
+  }
   /* .service-item-img::after{
       position: absolute;
     top: 0;

@@ -1,34 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@naisireth 
-naisireth
-/
-Urbe-App-Web
-Public
-Cannot fork because you own this repository and are not a member of any organizations.
-Code
-Issues
-Pull requests
-1
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Urbe-App-Web/css/style.css
-@naisireth
-naisireth navbar
-Latest commit d5cfa36 4 days ago
- History
- 1 contributor
-1135 lines (953 sloc)  19.6 KB
 
 * {
   scroll-behavior: smooth;

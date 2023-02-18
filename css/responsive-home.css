@@ -30,6 +30,12 @@
 
 @media (max-width: 992px) {
 
+    .service-item-recomendacion {
+        width: 70%;
+        margin: 0 auto;
+        height: auto;
+      }
+
     .client_container .client_text {
         height: 335px;    
     }
@@ -52,6 +58,11 @@
 }
 
 @media (max-width: 768px) {
+
+
+    .service-item-recomendacion {
+        width: 100%;
+      }
 
     .client_container .client_text {
         height: 265px;    
