@@ -1167,8 +1167,28 @@
   
   /* end contact section */
   /* info section */
+
+  .img-descarga {
+    width: 80%;
+    margin-left: 15px;
+    position: relative;
+    bottom: 2px;
+  }
+
+  .div-img-descarga {
+    background-color: #d4d1d1;
+    width: 210px;
+    height: 55px;
+    border-radius: 60px;
+    margin-bottom: 15px;
+  }
+
+  .div-img-descarga:hover {
+    background-color: #dfdfdf;
+  }
+
   .info_section {
-    background-color: #363636;
+    background-color: #1d1e31;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
   }

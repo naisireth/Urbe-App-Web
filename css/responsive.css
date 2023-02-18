@@ -53,6 +53,11 @@
 
 @media (max-width: 768px) {
 
+    .div-img-descarga {
+        margin: 0 auto;
+        margin-bottom: 15px;
+    } 
+    
     .client_container .client_text {
         height: 265px;    
     }
