@@ -9,10 +9,6 @@
         height: auto;
     }
 
-    .section-2 {
-        font-size: 3rem;
-    }
-
     .service-item {
         height: auto;
     }
@@ -26,6 +22,17 @@
         height: auto;
     }
 
+    .img-box {
+        position: relative;
+        right: 240px;
+        top: 10px;
+      }
+    
+      .img-box-1 {
+        position: relative;
+        right: 180px;
+        top: 10px;
+      }
 }
 
 @media (max-width: 992px) {
@@ -45,7 +52,7 @@
     }
 
     .slider_section .detail-box h2 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .slider_section .carousel-control-prev {
@@ -59,8 +66,23 @@
 
 @media (max-width: 768px) {
 
+    .img-slider, .img-slider-2, .img-slider-3{
+        width: 650px;
+    }
 
-    .service-item-recomendacion {
+    .img-box {
+        position: relative;
+        right: 70px;
+        top: 0px;
+        margin: 0 auto;
+        width: 100%;
+      }
+    
+      .img-box-1 {
+        position: relative;
+        right: 70px;
+        top: 0px;
+        margin: 0 auto;
         width: 100%;
       }
 
@@ -152,6 +174,30 @@
 }
 
 @media (max-width: 576px) {
+
+    .img-slider, .img-slider-2, .img-slider-3{
+        width: 140%;
+    }
+
+    .img-box {
+        position: relative;
+        right: 60px;
+        top: 0px;
+        margin: 0 auto;
+        width: 100%;
+      }
+    
+      .img-box-1 {
+        position: relative;
+        right: 60px;
+        top: 0px;
+        margin: 0 auto;
+        width: 100%;
+      }
+
+    .service-item-recomendacion {
+        width: 100%;
+      }
 
     .client_container .client_text {
         height: 290px;    

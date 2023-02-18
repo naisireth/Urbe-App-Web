@@ -674,6 +674,7 @@
   
   .slider_section .carousel {
     position: unset;
+    margin-top: 30px;
   }
   
   .slider_section .detail-box h2 {
@@ -686,7 +687,7 @@
     text-transform: uppercase;
     font-weight: bold;
     color: #8547ca;
-    font-size: 5.5rem;
+    font-size: 3rem;
   }
   
   .slider_section .detail-box a {
