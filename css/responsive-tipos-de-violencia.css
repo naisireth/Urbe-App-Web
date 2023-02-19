@@ -34,8 +34,8 @@
 
 @media (max-width: 992px) {
 
-    .hero_area {
-        background: #fff;
+    .custom_menu-btn span {
+        background-color: #8547ca;
     }
 
     .img-modifier {
@@ -44,6 +44,29 @@
         height: auto;
         margin-top: 25px;
     }
+    
+    .client_container {
+        width: 50%;
+        margin-top: 80px;
+    }
+
+    .img-side {
+        width: 50%;
+        margin-left: 150px;
+    }
+
+    .hero_area {
+        background: #fff;
+    }
+
+    .layout_padding2 {
+        padding: 5px 0;
+    }
+
+    .layout_margin {
+        margin-top: 0;
+    }
+
 
     .client_container .client_text {
         height: 335px;    
@@ -67,6 +90,17 @@
 }
 
 @media (max-width: 768px) {
+
+    .client_container {
+        width: 100%;
+        margin-top: 80px;
+        height: auto;
+    }
+
+    .img-side {
+        width: 100%;
+        margin-left: 0px;
+    }
 
 
     .service-item {
