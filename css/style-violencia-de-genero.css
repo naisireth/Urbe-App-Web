@@ -73,14 +73,16 @@ body::-webkit-scrollbar {
 .hero_area {
   height: 100vh;
   position: relative;
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #f2f7fd), color-stop(45%, #1d1e31));
-  background: linear-gradient(to right, #f2f7fd 50%, #1d1e31 45%);
+  /* background: -webkit-gradient(linear, left top, right top, color-stop(50%, #f2f7fd), color-stop(45%, #1d1e31));
+  background: linear-gradient(to right, #f2f7fd 50%, #1d1e31 45%); */
+  width: 100%;
+  background: url(../images/violencia-de-genero.jpg) top right no-repeat;
+  background-size: contain;
+
 }
 
 .img-modifier {
-  width: 560px;
-  height: auto;
-  margin-top: 50px;
+  display: none;
 }
 
 .sub_page .hero_area {
@@ -532,14 +534,14 @@ a:focus {
 .slider_section .detail-box h2 {
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 
 .section-2 {
   text-transform: uppercase;
   font-weight: bold;
   color: #8547ca;
-  font-size: 3rem;
+  font-size: 3.6rem;
 }
 
 .slider_section .detail-box a {
@@ -625,6 +627,7 @@ a:focus {
 .mobile-nav-active {
   overflow: hidden;
 }
+
 
 .feature_section {
   background-color: #fafafa;

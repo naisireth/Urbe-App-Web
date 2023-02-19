@@ -33,7 +33,7 @@
   <link href="css/responsive-home.css" rel="stylesheet" />
 </head>
 
-<body>
+<body id="body" class=" ">
   <div class="hero_area bg-light">
     <!-- header section strats -->
     <header class="header_section">
@@ -41,7 +41,7 @@
           <div class="container">
             <a class="navbar-brand" href="index.html">
               <span>
-                <img src="images/icon.png" class="img-fluid w-25" alt="...">
+                <img src="./images/icon.png" class="img-fluid w-25" alt="...">
               </span>
             </a>
             <div class="navbar-collapse" id="">
@@ -71,13 +71,13 @@
     <!-- slider section -->
     <section class=" slider_section position-relative pt-md-5">
       <div class="container pt-md-5">
-        <div class="row pt-md-5">
+        <div class="row pt-5">
           <div class="col-md-7">
             <div class="detail-box">
               <h2 id="nav-change">
                 Aitana
               </h2>
-              <h1>
+              <h1 class="section-2">
                 Tienes el poder de protegerte <br />
                 contra la violencia
               </h1>
@@ -139,7 +139,7 @@
                 </div>
                 <div class="bg-light text-center p-4">
                     <h5 class="text-uppercase mb-4">Violencia de Género</h5>
-                    <a href="" class="card-btn">
+                    <a href="inicio/violencia-de-genero.html" class="card-btn">
                       Leer más
                     </a>
                 </div>
@@ -394,7 +394,11 @@
       document
         .querySelector(".custom_menu-btn")
         .classList.toggle("menu_btn-style");
-    }
+
+        document.getElementById("body").classList.toggle("mobile-nav-active");
+    };
+
+  
 
     $(window).on("scroll", function () {
   if ($(window).scrollTop() > $("#nav-change").offset().top - 50) {
