@@ -18,15 +18,15 @@ body::-webkit-scrollbar {
 }
 
 .layout_margin {
-  margin: 90px 0;
+  margin-top: 90px;
 }
 
 .layout_padding {
-  padding: 90px 0;
+  padding-top: 90px;
 }
 
 .layout_padding2 {
-  padding: 45px 0;
+  padding-top: 45px;
 }
 
 .layout_padding2-top {
@@ -34,7 +34,7 @@ body::-webkit-scrollbar {
 }
 
 .layout_padding2-bottom {
-  padding-bottom: 45px;
+  padding-bottom: 0px;
 }
 
 .layout_padding-top {
@@ -42,7 +42,7 @@ body::-webkit-scrollbar {
 }
 
 .layout_padding-bottom {
-  padding-bottom: 90px;
+  padding-bottom: 0px;
 }
 
 .heading_container h2 {
