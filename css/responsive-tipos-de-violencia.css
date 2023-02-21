@@ -80,6 +80,10 @@
         font-size: 1.6rem;
     }
 
+    .client_section .heading_container h2 {
+        text-align: left;
+    }
+
     .slider_section .carousel-control-prev {
         top: 15px;
     }
