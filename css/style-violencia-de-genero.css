@@ -26,7 +26,7 @@ body::-webkit-scrollbar {
 }
 
 .layout_padding2 {
-  padding: 45px;
+  padding: 45px 0;
 }
 
 .layout_padding2-top {
