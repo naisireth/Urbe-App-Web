@@ -70,18 +70,13 @@
   
   /*header section*/
   .hero_area {
-    height: 100vh;
-    position: relative;
-    background: -webkit-gradient(linear, left top, right top, color-stop(50%, #f2f7fd), color-stop(45%, #1d1e31));
-    background: linear-gradient(to right, #f2f7fd 50%, #1d1e31 45%);
+    height: 20px;
+    background: #f2f7fd ;
+    width: 100%;
   }
   
   .img-modifier {
     width: 560px;
-    height: auto;
-  }
-  
-  .sub_page .hero_area {
     height: auto;
   }
   
@@ -547,17 +542,29 @@
   
   .card-btn {
     padding: 10px 40px; /* #9852f2 */
+    background-color: transparent;
+    color: #383a90;
+    border-radius: 0;
+    border: 1px solid #383a90;
+  }
+
+  .btn-contraseña {
+    padding: 10px 40px; /* #9852f2 */
     background-color: #383a90;
     color: #fefdfc;
     border-radius: 0;
     border: 1px solid #383a90;
   }
+
+  .btn-contraseña:hover {
+    color: #fefdfc;
+  }
   
   .card-btn:hover {
-    background-color: transparent;
-    color: #9852f2;
+    background-color: #383a90;
+    color: #fff;
     border-radius: 0;
-    border: 1px solid #9852f2;
+    border: 1px solid #383a90;
     cursor: pointer;
   }
 
@@ -583,8 +590,8 @@
   }
 
   .service-item-recomendacion {
-    height: 335px;
-    background:  transparent;
+    height: 315px;
+    background:  rgba(29, 30, 49, 0.015);
     transition: .5s;
     border: 1px solid #bcbcbc;
   }
@@ -662,8 +669,8 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: calc(100%);
-    padding: 75px 0;
+    height: 170px;
+    padding: 50px 0;
   }
   
   .slider_section .row {
@@ -680,6 +687,7 @@
   
   .slider_section .carousel {
     position: unset;
+    margin-top: 30px;
   }
   
   .slider_section .detail-box h2 {
@@ -689,25 +697,30 @@
   }
   
   .section-2 {
-    text-transform: uppercase;
     font-weight: bold;
     color: #8547ca;
-    font-size: 3rem;
+    font-size: 1.2rem;
   }
   
   .slider_section .detail-box a {
     display: inline-block;
     padding: 10px 60px;
-    background-color: #1d1e31;
     color: #fefdfc;
     border-radius: 0;
     border: 1px solid #1d1e31;
     text-transform: uppercase;
     margin-top: 35px;
   }
+
+  .breadcrumb {
+    background: #f2f7fd;
+  }
+
+  .bg-color {
+    background: #f2f7fd;
+  }
   
   .slider_section .detail-box a:hover {
-    background-color: transparent;
     color: #1d1e31;
   }
   
@@ -735,7 +748,6 @@
   }
   
   .slider_section .carousel-control-next {
-    background-color: #f2f7fd;
     top: initial;
     bottom: 150px;
     background-image: url(../images/right-arrow.png);
@@ -765,7 +777,6 @@
   .slider_section .carousel-indicators li.active {
     background-color: #8547ca;
   }
-  
   
   .nav-active {
     background-color: #fff;
