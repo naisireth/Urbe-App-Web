@@ -527,11 +527,20 @@ li a {
 }
 /*# sourceMappingURL=style.css.map */
 
+
 @media (max-width: 680px) { /* 1120px */
 
   #container div {
     width: 90%;
     height: 90%;
+  }
+
+}
+
+@media (max-width: 480px) { /* 1120px */
+
+  .agregar_container {
+    width: 70px;
   }
 
 }
