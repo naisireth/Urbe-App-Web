@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/formulario.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700|Raleway:400,700&display=swap" rel="stylesheet" />
+    <title>Denuncia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  </head>
+
+  <body id="body">
+
+    <!-- header section strats -->
+    <header class="header_section mb-5">
+      <nav class="navbar navbar-expand-lg custom_nav-container fixed-top nav-active">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              <img src="./images/icon.png" class="img-fluid w-25" alt="...">
+            </span>
+          </a>
+          <div class="navbar-collapse" id="">
+            <div class="custom_menu-btn">
+              <button onclick="openNav()">
+                <span class="s-1"> </span>
+                <span class="s-2"> </span>
+                <span class="s-3"> </span>
+              </button>
+            </div>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a class="link-space" href="index.html">INICIO</a>
+                <a class="link-space" href="centros-de-ayuda.html">CENTROS DE AYUDA</a>
+                <a class="link-space" href="mapa.html">UBICACIÓN</a>
+                <a class="link-space" href="denuncia.html">DENUNCIAS</a>
+                <div class="btn-link-bg">
+                  <a class="link-space btn-link-space" href="contact.html">INICIAR SESIÓN</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div id="container" class="mt-5">
+      <div id="box_Shadow" class="mt-5">    
+            
+        <form id="form" class="row g-3 needs-validation mt-5" novalidate>
+
+          <!-- Denunciante -->
+
+          <h2 class="text-center">Datos del denunciante</h2>
+
+          <div class="col-md-5">
+            <label for="validationCustom01" class="form-label">Nombre del denunciante:</label>
+            <input type="text" class="form-control" placeholder="Primer y segundo nombre" id="validationCustom01" required>
+          </div>
+
+          <div class="col-md-5">
+            <label for="validationCustom02" class="form-label">Apellido del denunciante:</label>
+            <input type="text" class="form-control" placeholder="Primer y segundo apellido"id="validationCustom02" required>
+          </div>
+
+          <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">Cédula del denunciante</label>
+            <input type="text" class="form-control" placeholder="Ingrese su cédula" id="validationCustom03" required>
+          </div>
+
+          <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Número de télefono del denunciante:</label>
+            <input type="tel" class="form-control" placeholder="Ingrese su numero de telefono" id="validationCustom05" required>
+          </div>
+
+          <hr>
+
+          <!-- Denunciado -->
+
+          <h2 class="text-center">Datos del denunciado</h2>
+
+          <div class="col-md-4">
+            <label for="txtIdNombre" class="form-label">Nombre del denunciado:</label>
+            <input type="text" class="form-control" id="txtIdNombre" placeholder="Primer y segundo nombre del denunciado">
+          </div>
+
+          <div class="col-md-4">
+            <label for="txtIdApellido" class="form-label">Apellido del denunciado:</label>
+            <input type="text" class="form-control" id="txtIdApellido" placeholder="Primer y segundo apellido del denunciado">
+          </div>
+
+          <div class="col-md-6">
+            <label for="txtIdCedula" class="form-label">Cédula del denunciado</label>
+            <input type="text" class="form-control" id="txtIdCedula" placeholder="Ingrese la cédula del denunciado">
+          </div>
+
+          <div>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Apellido</th>
+                  <th scope="col">Cedula</th>
+                  <th scope="col">Eliminar</th>
+                </tr>
+              </thead>
+              <tbody id="denunciado" class="table-group-divider">
+              </tbody>
+            </table>
+            
+            <button id="button" class="btn d-grid gap-2" type="button" onclick="agregar()">Agregar</button>
+            
+          </div>
+
+          <hr>
+
+          <!-- Denuncia -->
+
+          <h2 class="text-center">Datos de la denuncia</h2>
+
+          <div>
+            <label for="validationCustom03" class="form-label">Tipo de abuso:</label>
+            <select class="form-select" required aria-label="select example">
+              <option value="">Selecione el tipo de abuso</option>
+              <option value="1">VIOLENCIA CONTRA LAS MUJERES</option>
+              <option value="2">VIOLENCIA PSICOLÓGICA</option>
+              <option value="3">ACOSO U HOSTIGAMIENTO</option>
+              <option value="4">AMENAZA</option>
+              <option value="5">VIOLENCIA FÍSICA</option>
+              <option value="6">VIOLENCIA DOMÉSTICA</option>
+              <option value="7">VIOLENCIA SEXUAL</option>
+              <option value="8">ACCESO CARNAL VIOLENTO</option>
+              <option value="9">PROSTITUCIÓN FORZADA</option>
+              <option value="10">ESCLAVITUD SEXUAL</option>
+              <option value="11">VIOLENCIA LABORAL</option>
+              <option value="12">VIOLENCIA PATRIMONIAL Y ECONÓMICA</option>
+              <option value="13">ACOSO SEXUAL</option>
+              <option value="14">VIOLENCIA OBSTÉTRICA </option>
+              <option value="15">ESTERILIZACIÓN FORZADA</option>
+              <option value="16">VIOLENCIA MEDIÁTICA</option>
+              <option value="17">VIOLENCIA INSTITUCIONAL</option>
+              <option value="18">VIOLENCIA SIMBÓLICA</option>
+              <option value="19">TRÁFICO DE MUJERES, NIÑAS Y ADOLESCENTES</option>
+              <option value="20">TRATA DE MUJERES, NIÑAS Y ADOLESCENTES</option>
+            </select>
+          </div>
+
+          <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Lugar del acontesimiento:</label>
+            <input type="text" class="form-control" placeholder="Ingrese lugar del acontesimiento" id="validationCustom05" required>
+          </div>
+
+          <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">Fecha del acontesimiento:</label>
+            <input type="date" class="form-control" id="validationCustom03" required>
+          </div>
+
+          <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">Fecha del acontesimiento:</label>
+            <input type="time" class="form-control" id="validationCustom03" required>
+          </div>
+
+          <form class="was-validated">
+            <div>
+              <label for="validationTextarea" class="form-label">Denuncia:</label>
+              <textarea id="textarea" class="form-control" id="validationTextarea" placeholder="Ingresar la denuncia" required></textarea>
+            </div>
+
+          <div class="d-flex justify-content-center gap-5">
+            
+            <button class="btn btn-outline-success btn-lg" type="submit">Procesar</button>
+
+            <a class="btn btn-outline-danger btn-lg" href="./denuncia.html">Cancelar</a>
+            
+            <!-- <button type="button" class="btn btn-outline-danger btn-lg">Cancelar</button> -->
+            
+          </div>
+
+        </form> 
+      </div>
+    </div>
+
+  <!-- info section -->
+  <section class="info_section layout_padding-top">
+    <div class="info_logo-box">
+      <h2>
+        AITANA
+      </h2>
+    </div>
+    <div class="container layout_padding2">
+      <div class="row">
+        <div class="col-lg-4 col-md-3">
+          <h5>
+            Sobre Nosotros
+          </h5>
+          <p>
+            Nuestro propósito es que cualquier persona pueda denunciar actos de violencia de forma más rápida
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-3">
+          <h5>
+            Páginas
+          </h5>
+          <ul>
+            <li>
+              <a href="">
+                Inicio
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Centros de Ayuda
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Ubicación
+              </a>
+            </li>
+            <li>
+              <a href="">
+                Denuncias
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 col-lg-4 col-md-3">
+          <h5 class="mb-4">
+            Descargar Aplicación
+          </h5>
+          <a href=""><div  class="div-img-descarga "><img src="images/btn-google-play.png" class="img-descarga" alt=""></div></a>
+          <a href=""><div  class="div-img-descarga "><img src="images/btn-app-store.png" class="img-descarga" alt=""></div></a>
+        </div>
+        <div class="col-md-3">
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info section -->
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <p>
+      &copy; 2023 All Rights Reserved</a>
+    </p>
+  </section>
+
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").classList.toggle("menu_width");
+      document
+        .querySelector(".custom_menu-btn")
+        .classList.toggle("menu_btn-style");
+
+        document.getElementById("body").classList.toggle("mobile-nav-active");
+    };
+
+  
+    $(window).on("scroll", function () {
+  if ($(window).scrollTop() > $("#nav-change").offset().top - 50) {
+    $("nav").addClass("nav-active");
+  } else {
+    $("nav").removeClass("nav-active");
+  };
+  });
+
+  </script>
+
+  </script>
+
+  <script src="js/denunciado.js" type="text/javascript"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+  </body>
+</html>
