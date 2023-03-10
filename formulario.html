@@ -51,7 +51,7 @@
     <div id="container" class="mt-5">
       <div id="box_Shadow" class="mt-5">    
             
-        <form id="form" class="row g-3 needs-validation mt-5 mx-5" novalidate>
+        <form id="form" class="row g-3 needs-validation mt-5 mx-md-5" novalidate>
 
           <!-- Denunciante -->
 
@@ -98,24 +98,23 @@
             <input type="text" class="form-control" id="txtIdCedula" placeholder="Ingrese la cédula del denunciado">
           </div>
 
-          <div class="">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">Nombre</th>
-                  <th scope="col">Apellido</th>
-                  <th scope="col">Cedula</th>
-                  <th scope="col">Eliminar</th>
-                </tr>
-              </thead>
-              <tbody id="denunciado" class="table-group-divider">
-              </tbody>
-            </table>
-            
-            <button id="button" class="btn d-grid gap-2" type="button" onclick="agregar()">Agregar</button>
-            
+          <div class="overflow-auto">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Apellido</th>
+                    <th scope="col">Cedula</th>
+                    <th scope="col">Eliminar</th>
+                  </tr>
+                </thead>
+                <tbody id="denunciado" class="table-group-divider">
+                </tbody>
+              </table>
+                                   
           </div>
+          <button id="button" class="btn d-grid gap-2 mb-4" type="button" onclick="agregar()">Agregar</button>
 
           <hr>
 
